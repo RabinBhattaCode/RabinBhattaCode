@@ -21,6 +21,7 @@ I am a seasoned music producer now building AI tools for musicians and music ind
 | [Audio Identification](https://github.com/RabinBhattaCode/Audio-identification) | A rule based audio fingerprinting system. It turns recordings into spectral peaks, landmark hashes, and offset votes so a short query can be matched to the correct track. | Python, librosa, NumPy, SciPy, scikit-image |
 | [Beat Tracking For Ballroom Dance Music](https://github.com/RabinBhattaCode/Beat-Tracking-For-Ballroom-Dance-Music) | A beat and downbeat tracking system. It uses spectral flux, onset detection, tempo estimation, beat tracking, and a simple meter rule for ballroom music. | Python, librosa, mir_eval, NumPy, Matplotlib |
 | [Remix Maker using U-Net Separation and AST Classification](https://github.com/RabinBhattaCode/Remix_Maker_using_U_Net_Separation_and_AST_Classification) | A drum replacement prototype. It separates drum content with a U-Net model, chooses replacement loops with AST classification, and tests the result through notebooks. | Python, PyTorch, audio ML, Jupyter |
+| [YouTube Transcript Extractor](https://github.com/RabinBhattaCode/YouTube-Transcript-Extractor) | A local workflow tool for extracting YouTube transcripts and exporting them into useful research or planning formats. | Python, Flask, yt-dlp, HTML/CSS |
 | [Ifuno Website](https://github.com/RabinBhattaCode/WTM-BLOG) | A public website project connected to my wider music and media work. | Web development, frontend, deployment |
 
 ## Music Informatics
@@ -44,6 +45,14 @@ This matters because timing is one of the basic things musicians and producers n
 This project tests a practical drum replacement pipeline. The separator first tries to isolate drum content from the input audio. Then the classifier selects a replacement loop, and the demo notebook puts the new drum part back into the remix.
 
 The system is a prototype, not a finished product. This is useful because it shows how source separation and classification can support creative workflows for producers.
+
+## Workflow Tools
+
+### YouTube Transcript Extractor
+
+This tool runs locally in the browser and extracts transcripts from YouTube videos. The output can be exported into Markdown, text, CSV, or ZIP files. This is useful for research, content review, planning, and turning long videos into notes that are easier to search.
+
+The project fits my wider goal because music and media professionals spend a lot of time collecting information before making creative decisions. A small workflow tool can reduce that manual work.
 
 ## Skills
 
@@ -87,6 +96,11 @@ The system is a prototype, not a finished product. This is useful because it sho
 - Exploring source separation, classification, remix generation, and audio search.
 - Turning academic audio methods into practical tools that producers can actually use.
 
+## GitHub Stats
+
+![Rabin's GitHub stats](https://github-readme-stats.vercel.app/api?username=RabinBhattaCode&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RabinBhattaCode&layout=compact&hide_border=true)
+
 ## Connect
 
 [![Website](https://img.shields.io/badge/Wadiz%20This%20Music-111827?style=for-the-badge)](https://wadizthismusic.com)
@@ -100,4 +114,3 @@ The system is a prototype, not a finished product. This is useful because it sho
 ---
 
 Studio experience, academic research, and AI implementation for practical music industry tools.
-
