@@ -1,3 +1,5 @@
+# Rabin Bhatta
+
 ### Music producer, AI music technologist, and MSc Sound & Music Computing student at Queen Mary University of London
 
 I build practical music technology systems across audio identification, beat tracking, source separation, remix tools, and AI-assisted creative workflows. My background is split between commercial music production and technical research: over 60M Spotify streams, 3B+ TikTok views, and current MSc work focused on Music Information Retrieval, machine learning, signal processing, and deep learning for audio.
@@ -16,10 +18,10 @@ I build practical music technology systems across audio identification, beat tra
 
 | Project | Focus | Stack |
 | --- | --- | --- |
-| [Audio Identification](https://github.com/Katmandusound/Audio-identification) | Shazam-style fingerprinting system using spectrogram peaks, constellation maps, landmark hashes, offset voting, and Top-k/MAP evaluation. | Python, librosa, NumPy, SciPy, scikit-image |
-| [Beat Tracking For Ballroom Dance Music](https://github.com/Katmandusound/Beat-Tracking-For-Ballroom-Dance-Music) | Ballroom beat and downbeat tracker using spectral flux, onset detection, tempo induction, dynamic-programming beat tracking, meter-aware downbeat inference, and `mir_eval` scoring. | Python, librosa, mir_eval, NumPy, Matplotlib |
-| [Remix Maker using U-Net Separation and AST Classification](https://github.com/Katmandusound/Remix_Maker_using_U_Net_Separation_and_AST_Classification) | Drum replacement and remix workflow combining a U-Net separator with AST-based loop selection and evaluation notebooks. | Python, PyTorch, audio ML, Jupyter |
-| [Ifuno Website](https://github.com/Katmandusound/ifuno-website) | Public website project for Ifuno. | Web development, frontend, deployment |
+| [Audio Identification](https://github.com/RabinBhattaCode/Audio-identification) | Shazam-style fingerprinting system using spectrogram peaks, constellation maps, landmark hashes, offset voting, and Top-k/MAP evaluation. | Python, librosa, NumPy, SciPy, scikit-image |
+| [Beat Tracking For Ballroom Dance Music](https://github.com/RabinBhattaCode/Beat-Tracking-For-Ballroom-Dance-Music) | Ballroom beat and downbeat tracker using spectral flux, onset detection, tempo induction, dynamic-programming beat tracking, meter-aware downbeat inference, and `mir_eval` scoring. | Python, librosa, mir_eval, NumPy, Matplotlib |
+| [Remix Maker using U-Net Separation and AST Classification](https://github.com/RabinBhattaCode/Remix_Maker_using_U_Net_Separation_and_AST_Classification) | Drum replacement and remix workflow combining a U-Net separator with AST-based loop selection and evaluation notebooks. | Python, PyTorch, audio ML, Jupyter |
+| [Ifuno Website](https://github.com/RabinBhattaCode/WTM-BLOG) | Public website project for Ifuno. | Web development, frontend, deployment |
 
 ## Music Informatics
 
@@ -81,13 +83,18 @@ Developed a drum replacement workflow for remixing audio. The project separates 
 
 ## GitHub Stats
 
-![Rabin's GitHub stats](https://github-readme-stats.vercel.app/api?username=Katmandusound&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Katmandusound&layout=compact&hide_border=true)
+![Rabin's GitHub stats](https://github-readme-stats.vercel.app/api?username=RabinBhattaCode&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RabinBhattaCode&layout=compact&hide_border=true)
 
 ## Connect
 
 [![Website](https://img.shields.io/badge/Wadiz%20This%20Music-111827?style=for-the-badge)](https://wadizthismusic.com)
-[![Instagram](https://img.shields.io/badge/@Katmandusound-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Katmandusound)
+[![GitHub](https://img.shields.io/badge/GitHub-RabinBhattaCode-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RabinBhattaCode?tab=repositories)
+[![YouTube](https://img.shields.io/badge/YouTube-katmandusounds-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@katmandusounds)
+[![TikTok](https://img.shields.io/badge/TikTok-katmandusounds-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@katmandusounds)
+[![Produced by katmandusounds](https://img.shields.io/badge/Spotify-Produced%20by%20katmandusounds-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/6ZDiTpfDayBYwdzuFw7axg)
+[![Spotify](https://img.shields.io/badge/Spotify-Katmandu%20Sound-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/artist/1255i2Jr7gEHyppuqmnsm5)
+[![Spotify](https://img.shields.io/badge/Spotify-Artist%20Profile-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/artist/10ks8LfDCLyOb7gE1YhxPE)
 
 ---
 
