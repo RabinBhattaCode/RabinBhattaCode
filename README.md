@@ -96,11 +96,6 @@ The project fits my wider goal because music and media professionals spend a lot
 - Exploring source separation, classification, remix generation, and audio search.
 - Turning academic audio methods into practical tools that producers can actually use.
 
-## GitHub Stats
-
-![Rabin's GitHub stats](https://github-readme-stats.vercel.app/api?username=RabinBhattaCode&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RabinBhattaCode&layout=compact&hide_border=true)
-
 ## Connect
 
 [![Website](https://img.shields.io/badge/Wadiz%20This%20Music-111827?style=for-the-badge)](https://wadizthismusic.com)
