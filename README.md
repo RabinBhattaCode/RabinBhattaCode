@@ -1,8 +1,8 @@
 # Rabin Bhatta
 
-### Music producer, AI music technologist, and MSc Sound & Music Computing student at Queen Mary University of London
+### Music producer transitioning into AI music technology for the music industry
 
-I build practical music technology systems across audio identification, beat tracking, source separation, remix tools, and AI-assisted creative workflows. My background is split between commercial music production and technical research: over 60M Spotify streams, 3B+ TikTok views, and current MSc work focused on Music Information Retrieval, machine learning, signal processing, and deep learning for audio.
+I am a seasoned music producer now building AI tools for musicians and music industry professionals. The goal is to make useful systems that reduce manual work, improve creative workflow, and help people make better decisions with audio. My background comes from real music production, with over 60M Spotify streams and 3B+ TikTok views. I am now adding technical depth through an MSc in Sound and Music Computing at Queen Mary University of London.
 
 <p>
   <a href="#featured-projects"><img src="https://img.shields.io/badge/Featured%20Projects-111827?style=for-the-badge" alt="Featured Projects"></a>
@@ -18,68 +18,74 @@ I build practical music technology systems across audio identification, beat tra
 
 | Project | Focus | Stack |
 | --- | --- | --- |
-| [Audio Identification](https://github.com/RabinBhattaCode/Audio-identification) | Shazam-style fingerprinting system using spectrogram peaks, constellation maps, landmark hashes, offset voting, and Top-k/MAP evaluation. | Python, librosa, NumPy, SciPy, scikit-image |
-| [Beat Tracking For Ballroom Dance Music](https://github.com/RabinBhattaCode/Beat-Tracking-For-Ballroom-Dance-Music) | Ballroom beat and downbeat tracker using spectral flux, onset detection, tempo induction, dynamic-programming beat tracking, meter-aware downbeat inference, and `mir_eval` scoring. | Python, librosa, mir_eval, NumPy, Matplotlib |
-| [Remix Maker using U-Net Separation and AST Classification](https://github.com/RabinBhattaCode/Remix_Maker_using_U_Net_Separation_and_AST_Classification) | Drum replacement and remix workflow combining a U-Net separator with AST-based loop selection and evaluation notebooks. | Python, PyTorch, audio ML, Jupyter |
-| [Ifuno Website](https://github.com/RabinBhattaCode/WTM-BLOG) | Public website project for Ifuno. | Web development, frontend, deployment |
+| [Audio Identification](https://github.com/RabinBhattaCode/Audio-identification) | A rule based audio fingerprinting system. It turns recordings into spectral peaks, landmark hashes, and offset votes so a short query can be matched to the correct track. | Python, librosa, NumPy, SciPy, scikit-image |
+| [Beat Tracking For Ballroom Dance Music](https://github.com/RabinBhattaCode/Beat-Tracking-For-Ballroom-Dance-Music) | A beat and downbeat tracking system. It uses spectral flux, onset detection, tempo estimation, beat tracking, and a simple meter rule for ballroom music. | Python, librosa, mir_eval, NumPy, Matplotlib |
+| [Remix Maker using U-Net Separation and AST Classification](https://github.com/RabinBhattaCode/Remix_Maker_using_U_Net_Separation_and_AST_Classification) | A drum replacement prototype. It separates drum content with a U-Net model, chooses replacement loops with AST classification, and tests the result through notebooks. | Python, PyTorch, audio ML, Jupyter |
+| [Ifuno Website](https://github.com/RabinBhattaCode/WTM-BLOG) | A public website project connected to my wider music and media work. | Web development, frontend, deployment |
 
 ## Music Informatics
 
 ### Audio Identification
 
-Built an end-to-end audio retrieval pipeline that converts audio into a searchable fingerprint database. The system uses STFT spectrograms, peak picking, landmark hashing, query matching through offset voting, and ranking metrics including Top-1, Top-3, and MAP@3.
+This system converts audio into a searchable fingerprint database. The input audio is loaded, converted into an STFT spectrogram, reduced to spectral peaks, and stored as landmark hashes. This is useful because a short query clip can then be matched against a database by repeated offset voting.
+
+The evaluation uses ranking metrics such as Top-1, Top-3, and MAP@3. These metrics show whether the correct track is returned at the top of the search results.
 
 ### Beat Tracking For Ballroom Dance Music
 
-Implemented a beat and downbeat tracking system for ballroom dance recordings. The tracker combines spectral-flux onset detection, tempo estimation, librosa beat tracking, and meter-aware downbeat selection, with evaluation support through `mir_eval`.
+This system finds beat times and downbeat times in ballroom dance recordings. It starts by building a spectral-flux onset detection function. Then it estimates tempo, tracks the beat positions, and applies a simple meter rule for downbeats.
+
+This matters because timing is one of the basic things musicians and producers need from audio tools. A beat tracker can support editing, remixing, synchronisation, and music analysis.
 
 ## Deep Learning For Music
 
 ### Remix Maker using U-Net Separation and AST Classification
 
-Developed a drum replacement workflow for remixing audio. The project separates drum content with a U-Net model, selects replacement loops with an Audio Spectrogram Transformer classifier, and demonstrates the final remix process through notebooks and reusable Python modules.
+This project tests a practical drum replacement pipeline. The separator first tries to isolate drum content from the input audio. Then the classifier selects a replacement loop, and the demo notebook puts the new drum part back into the remix.
+
+The system is a prototype, not a finished product. This is useful because it shows how source separation and classification can support creative workflows for producers.
 
 ## Skills
 
 ### Programming and ML
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)](https://scipy.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
 ### Audio, MIR, and DSP
 
-![librosa](https://img.shields.io/badge/librosa-111827?style=for-the-badge)
-![Music Information Retrieval](https://img.shields.io/badge/Music%20Information%20Retrieval-0f766e?style=for-the-badge)
-![Signal Processing](https://img.shields.io/badge/Signal%20Processing-1d4ed8?style=for-the-badge)
-![Source Separation](https://img.shields.io/badge/Source%20Separation-b91c1c?style=for-the-badge)
-![Beat Tracking](https://img.shields.io/badge/Beat%20Tracking-7c3aed?style=for-the-badge)
+[![librosa](https://img.shields.io/badge/librosa-111827?style=for-the-badge)](https://librosa.org/)
+[![Music Information Retrieval](https://img.shields.io/badge/Music%20Information%20Retrieval-0f766e?style=for-the-badge)](https://musicinformationretrieval.com/)
+[![Signal Processing](https://img.shields.io/badge/Signal%20Processing-1d4ed8?style=for-the-badge)](https://scipy-lectures.org/intro/scipy/auto_examples/plot_fftpack.html)
+[![Source Separation](https://img.shields.io/badge/Source%20Separation-b91c1c?style=for-the-badge)](https://sigsep.github.io/)
+[![Beat Tracking](https://img.shields.io/badge/Beat%20Tracking-7c3aed?style=for-the-badge)](https://librosa.org/doc/latest/generated/librosa.beat.beat_track.html)
 
 ### Creative AI and Production
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![ComfyUI](https://img.shields.io/badge/ComfyUI-5956E9?style=for-the-badge)
-![FL Studio](https://img.shields.io/badge/FL%20Studio-FF6A00?style=for-the-badge)
-![Logic Pro](https://img.shields.io/badge/Logic%20Pro-000000?style=for-the-badge&logo=apple&logoColor=white)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/claude)
+[![ComfyUI](https://img.shields.io/badge/ComfyUI-5956E9?style=for-the-badge)](https://www.comfy.org/)
+[![FL Studio](https://img.shields.io/badge/FL%20Studio-FF6A00?style=for-the-badge)](https://www.image-line.com/fl-studio/)
+[![Logic Pro](https://img.shields.io/badge/Logic%20Pro-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/logic-pro/)
 
 ### Web and Tools
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Frontend](https://img.shields.io/badge/Frontend-2563eb?style=for-the-badge)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Frontend](https://img.shields.io/badge/Frontend-2563eb?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 
 ## Current Focus
 
-- Building a public portfolio of music technology and AI audio projects.
-- Applying Music Information Retrieval methods to real creative workflows.
-- Exploring deep learning systems for source separation, classification, and remix generation.
-- Connecting academic audio research with production-grade music tools.
+- Building AI tools that help musicians and music industry professionals work faster.
+- Applying Music Information Retrieval methods to real studio and catalogue problems.
+- Exploring source separation, classification, remix generation, and audio search.
+- Turning academic audio methods into practical tools that producers can actually use.
 
 ## GitHub Stats
 
@@ -98,4 +104,5 @@ Developed a drum replacement workflow for remixing audio. The project separates 
 
 ---
 
-Studio experience, academic research, and AI implementation for the next generation of music tools.
+Studio experience, academic research, and AI implementation for practical music industry tools.
+
